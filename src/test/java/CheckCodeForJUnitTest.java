@@ -5,7 +5,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class CheckCodeForJUnit {
+public class CheckCodeForJUnitTest {
     @Test
     void checkTextOnPage() {
         open("https://github.com/selenide/selenide");
